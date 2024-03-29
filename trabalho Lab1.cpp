@@ -1,3 +1,6 @@
+//Trabalho Lab1 Professor Thiago
+ 
+
 #include <iostream>
 #include <vector>
 #include <string>

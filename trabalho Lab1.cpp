@@ -1,5 +1,6 @@
 //Trabalho Lab1 Professor Thiago
- 
+// Matheus Abilio da Silva Camargo Cod:841929
+// Maria Fernanda Faria Kurukava Cod:841877
 
 #include <iostream>
 #include <vector>
@@ -20,10 +21,10 @@ double calcularIMC(double peso, double altura) {
     return peso / (altura * altura);
 }
 
-// Função para avaliar o IMC e fornecer uma mensagem
+// Função para avaliar o IMC e atribuir uma mensagem
 string avaliarIMC(double imc) {
     if (imc < 18.5) {
-        return "Abaixo do peso. Você deve considerar ganhar peso.";
+        return "Abaixo do peso. Você deve ganhar peso.";
     } else if (imc >= 18.5 && imc < 25) {
         return "Parabens! Seu peso esta saudavel.";
     } else if (imc >= 25 && imc < 30) {

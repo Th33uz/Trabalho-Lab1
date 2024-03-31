@@ -106,7 +106,7 @@ int main() {
         cout << "2. Lista de pessoas cadastradas" << endl;
         cout << "3. Pesquisar pessoa por nome" << endl;
         cout << "4. Sair" << endl;
-        cout << "Escolha uma opção: ";
+        cout << "Escolha uma opçao: ";
         cin >> opcao;
 
         cin.ignore();

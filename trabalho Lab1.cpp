@@ -25,11 +25,11 @@ string avaliarIMC(double imc) {
     if (imc < 18.5) {
         return "Abaixo do peso. Você deve considerar ganhar peso.";
     } else if (imc >= 18.5 && imc < 25) {
-        return "Parabéns! Seu peso está saudável.";
+        return "Parabens! Seu peso esta saudavel.";
     } else if (imc >= 25 && imc < 30) {
-        return "Sobrepeso. Você pode estar em risco. Consulte um médico.";
+        return "Sobrepeso. Você pode estar em risco. Consulte um medico.";
     } else {
-        return "Obesidade. É importante consultar um médico.";
+        return "Obesidade. É importante consultar um medico.";
     }
 }
 
@@ -92,7 +92,7 @@ void pesquisarPessoa(const vector<Pessoa> &pessoas) {
     }
 
     if (!encontrou) {
-        cout << "Pessoa não encontrada." << endl;
+        cout << "Pessoa nao encontrada." << endl;
     }
 }
 
@@ -101,7 +101,7 @@ int main() {
     int opcao;
 
     do {
-        cout << "\nBem-vindo qual opção deseja..:" << endl;
+        cout << "\nBem-vindo qual opçao deseja..:" << endl;
         cout << "1. Cadastrar pessoa" << endl;
         cout << "2. Lista de pessoas cadastradas" << endl;
         cout << "3. Pesquisar pessoa por nome" << endl;
@@ -125,7 +125,7 @@ int main() {
                 cout << "Encerrando o programa." << endl;
                 break;
             default:
-                cout << "Opção inválida. Escolha uma opção válida." << endl;
+                cout << "Opçao invalida. Escolha uma opçao valida." << endl;
         }
     } while (opcao != 4);
 
